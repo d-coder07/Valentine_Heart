@@ -127,10 +127,10 @@ def animate4(i):
     ax1.plot(m7, m8, c= "red")
     
 ## Plotting for graph animated
-ani1 = FuncAnimation(fig1, animate1, frames=len(x1), interval=4, repeat=False)
-ani2 = FuncAnimation(fig1, animate2, frames=len(x1), interval=4, repeat=False)
-ani3 = FuncAnimation(fig1, animate3, frames=len(x2), interval=4, repeat=False)
-ani4 = FuncAnimation(fig1, animate4, frames=len(x2), interval=4, repeat=False)
+ani1 = FuncAnimation(fig1, animate1, frames=len(x1), interval=3, repeat=False)
+ani2 = FuncAnimation(fig1, animate2, frames=len(x1), interval=3, repeat=False)
+ani3 = FuncAnimation(fig1, animate3, frames=len(x2), interval=3, repeat=False)
+ani4 = FuncAnimation(fig1, animate4, frames=len(x2), interval=3, repeat=False)
 
 
 # creating straight line through heart
